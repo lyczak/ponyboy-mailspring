@@ -1,9 +1,9 @@
 {
-  "name": "Predawn",
-  "displayName": "Predawn",
+  "name": "Ponyboy",
+  "displayName": "Ponyboy",
   "theme": "ui",
   "version": "0.1.0",
-  "description": "The Mailspring Predawn UI Theme",
+  "description": "The Mailspring Ponyboy UI Theme",
   "license": "MIT",
   "engines": {
     "mailspring": "*"
