@@ -1,31 +1,13 @@
-# Ponyboy for Mailspring
+# Ponyboy (A Mailspring Theme)
 
-A dark theme for the [Mailspring](https://getmailspring.com/) email client, forked from the [Predawn](https://github.com/asparc/predawn) Mailspring theme.
+<p align="center">
+<img alt="HTML Message Screenshot" src="fig/ponyboy-screen-html.png" width="100%">
+</p>
+
+Ponyboy is a dark theme for the [Mailspring](https://getmailspring.com/) email client, forked from the [Predawn](https://github.com/asparc/predawn) Mailspring theme.
 
 # Installing
 
-1. Download the [Mailspring](https://getmailspring.com/) email client.
-2. Download or clone the latest version of this theme from <https://github.com/lyczak/ponyboy-mailspring>.
-3. Open `Mailspring > Edit > Install Theme...` and select the folder you just downloaded.
-4. Enjoy :)
-
-# Configuring
-
-## Brightness suppression
-
-Emails with white backgrounds are made less bright by the theme, to ease your eyes. If you dislike that option, open the file `styles/ui-variables.less` and change the line
-
-    @message-filter-undo:  hue-rotate(-180deg) invert(85%);
-
-to 
-
-    @message-filter-undo:  hue-rotate(-180deg) invert(100%);
-
-## Accent color
-
-It's quite straightforward to replace the orange accent color by another color of your choosing:
-
-- Replace all occurrences of `@orange` and `@orange-prefilter` in `styles/ui-variables.less`.
-- Change the color of all orange icons in `style/images`. 
-
-That's it!
+1. Download or clone the latest version of this theme from <https://github.com/lyczak/ponyboy-mailspring>.
+2. Open `Mailspring > Edit > Install Theme...` and select the folder you just downloaded.
+3. Done!
