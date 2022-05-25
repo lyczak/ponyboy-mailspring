@@ -1,10 +1,10 @@
 @import "base/ui-variables";
 
-@gray-base:         #1f1f1f;
-@orange:            #f18260;
-@white:             #f8f7f9;     
-@background-base:   #282828;
-@text-base:         rgba(255, 255, 255, 0.8);
+@gray-base:         #171317; // yes i know its not actually gray leave me alone
+@pink:              #d43387;
+@white:             #f8f7f9;
+@background-base:   #1b161b;
+@text-base:         rgba(255, 224, 236, 0.8);
 @base-border:       transparent;
 @preferences-extra:  green;
 
@@ -13,8 +13,7 @@
 @message-filter-undo:  hue-rotate(-180deg) invert(85%); // white will be a bit fainter
 
 @text-base-prefilter:  spin(#fff - @text-color, 180);
-@orange-prefilter:     #c25331; // set manually, as hue-rotate is only an approximation of spin
-// @orange-prefilter:  spin(#fff - @orange, 180); // set automatically, but suboptimally
+@pink-prefilter:       #b8286c;
 
 // State colors
 @info-color:        #5293d8;
@@ -36,9 +35,9 @@
 @reply-activity-color: @gray-lighter;
 
 // Accents
-@accent-primary:           @orange;
+@accent-primary:           @pink;
 @accent-primary-dark:      @accent-primary;
-@accent-primary-prefilter: @orange-prefilter;
+@accent-primary-prefilter: @pink-prefilter;
 
 // Text
 @text-color:              @text-base;
