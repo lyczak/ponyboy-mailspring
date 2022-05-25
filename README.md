@@ -1,18 +1,13 @@
-# Predawn for Mailspring
+# Ponyboy for Mailspring
 
-A dark theme for the [Mailspring](https://getmailspring.com/) email client, inspired by the [Predawn](https://github.com/jamiewilson/predawn) theme for Atom/Sublime Text.
-
-<p align="center">
-<img alt="Screenshot Plain" src="fig/predawn-screen-plain.png" width="70%">
-<img alt="Screenshot HTML" src="fig/predawn-screen-html.png" width="70%">
-</p>
+A dark theme for the [Mailspring](https://getmailspring.com/) email client, forked from the [Predawn](https://github.com/asparc/predawn) Mailspring theme.
 
 # Installing
 
 1. Download the [Mailspring](https://getmailspring.com/) email client.
-2. Download or clone the latest version of the Predawn theme from <https://github.com/asparc/predawn>.
+2. Download or clone the latest version of this theme from <https://github.com/lyczak/ponyboy-mailspring>.
 3. Open `Mailspring > Edit > Install Theme...` and select the folder you just downloaded.
-4. Enjoy a polished dark theme that's easy on your eyes!
+4. Enjoy :)
 
 # Configuring
 
@@ -34,8 +29,3 @@ It's quite straightforward to replace the orange accent color by another color o
 - Change the color of all orange icons in `style/images`. 
 
 That's it!
-
-# ToDo
-
-- [ ] Fine-tune for MacOS (Mac users are welcome to contribute :-))
-- [ ] Include calendar feature, once it's fully operational.
